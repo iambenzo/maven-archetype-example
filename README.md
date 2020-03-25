@@ -2,6 +2,8 @@
 
 Generate the scaffolding for a Spring Webflux API which connects to an embedded Mongo DB.
 
+Check out the related [blog post](https://iambenzo.com/maven-archetypes/).
+
 ## Installation
 
 Clone/Download this repository and run the following command:
@@ -23,7 +25,7 @@ mvn archetype:generate \
 |Parameter|Example Value|Description|
 |:---|:---|:---|
 |archetypeGroupId|com.iambenzo|Should always use this value|
-|archetypeArtifactId|mvc-quickstart|Should always use this value|
+|archetypeArtifactId|webflux-crud-archetype|Should always use this value|
 |groupId|com.iambenzo||
 |artifactId|dave-api-example|App name|
 |version|1.0.0|App Version|
