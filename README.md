@@ -10,7 +10,13 @@ Clone/Download this repository and run the following command:
 mvn clean install
 ```
 
-From there, you can run the generation command (found in below example)
+From there, you can run the generation command:
+
+```sh
+mvn archetype:generate \
+"-DarchetypeGroupId=com.iambenzo" \
+"-DarchetypeArtifactId=webflux-crud-archetype"
+```
 
 ## Parameters
 
